@@ -13,7 +13,7 @@ routes = web.RouteTableDef()
 
 @routes.get("/", allow_head=True)
 async def root_route_handler(request):
-    return web.json_response("Madflix_Bots")
+    return web.json_response("Paradox_bots")
 
 
 
